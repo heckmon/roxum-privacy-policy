@@ -1,13 +1,53 @@
-<html>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account & Data Deletion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #111;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
     <h1>Account & Data Deletion</h1>
-    <p>This app uses GitHub OAuth for authentication and does not store any personal data on its own servers.</p>
-    <p>To revoke access:</p>
+
+    <p>
+        This app uses GitHub OAuth for authentication and does not store any personal data on its own servers.
+    </p>
+
+    <h2>How to Revoke Access</h2>
     <ol>
-      <li>Go to <a href="https:                                                                                     
-      <li>Find this app</li>
-      <li>Click "Revoke access"</li>
+        <li>
+            Go to 
+            <a href="https://github.com/settings/applications" target="_blank">
+                https://github.com/settings/applications
+            </a>
+        </li>
+        <li>Find this app in the list of authorized applications</li>
+        <li>Click <strong>"Revoke access"</strong></li>
     </ol>
-    <p>All data is managed by GitHub and not stored by this app.</p>
-  </body>
-</html>              
+
+    <p>
+        All data is managed by GitHub and is not stored by this app.
+    </p>
+
+</body>
+</html>
